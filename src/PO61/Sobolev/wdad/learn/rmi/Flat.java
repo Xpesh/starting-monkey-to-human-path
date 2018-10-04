@@ -4,6 +4,7 @@ import java.io.Serializable;
 import java.util.List;
 
 public class Flat implements Serializable{
+    //todo куда потерял список показаний?
     int number;
     int personsQuantity;
     double area;

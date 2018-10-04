@@ -42,7 +42,7 @@ public class PreferencesManager {
         }
         return instance;
     }
-
+    //todo посмотри XPath - я Козлюку уже дал пример
     private String lastElementKey(String keys){
         String[] strings = keys.split("[.]");
         return strings[strings.length-1];

@@ -10,9 +10,12 @@ import java.io.IOException;
 import java.io.Serializable;
 import java.rmi.RemoteException;
 
+/* todo все иные (кроме RemoteExcpetion) исключения, которые могут быть порождены в методах,
+   нужно оборачивать в RemoteException и выбрасывать его. А в клиенте эти исключения обрабатывать и хотябы
+   выводить сообщение в консоль о причине косяка=)
+ */
 public class XmlDataManagerImpl implements XmlDataManager, Serializable {
     private  XmlTask xmlTask;
-
     public XmlDataManagerImpl(String path) throws ParserConfigurationException, SAXException, IOException, RemoteException{
         xmlTask = new XmlTask(path);
     }

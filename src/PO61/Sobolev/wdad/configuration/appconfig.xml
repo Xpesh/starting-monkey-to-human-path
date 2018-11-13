@@ -10,7 +10,7 @@
             </registry>
         </server>
         <client>
-            <policypath>security.policy</policypath>
+            <policypath>/Users/tatanasoboleva/IdeaProjects/HOT/starting-monkey-to-human-path/src/PO61/Sobolev/wdad/learn/rmi/security.policy</policypath>
             <usecodebaseonly>yes</usecodebaseonly>
         </client>
         <classprovider></classprovider>

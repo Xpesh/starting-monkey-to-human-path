@@ -2,7 +2,6 @@ package PO61.Sobolev.wdad.learn.rmi;
 
 import PO61.Sobolev.wdad.learn.xml.NotFoundException;
 import org.xml.sax.SAXException;
-
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.TransformerException;
 import java.io.IOException;
@@ -19,7 +18,5 @@ public class XmlDataManagerImplTest {
         xmlDataManager.setTariff("coldwater",40);
         System.out.println(xmlDataManager.getBill(building,2,2,2002));
         xmlDataManager.addRegistration(building,2,registration,1,2002);
-
     }
-
 }

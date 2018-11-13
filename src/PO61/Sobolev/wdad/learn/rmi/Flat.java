@@ -4,15 +4,17 @@ import java.io.Serializable;
 import java.util.List;
 
 public class Flat implements Serializable{
-    //todo куда потерял список показаний?
+    //todo куда потерял список показаний? //
     int number;
     int personsQuantity;
     double area;
+    List<Registration> registrations;
 
     public Flat(int number, int personsQuantity, double area, List<Registration> registrations) {
         this.number = number;
         this.personsQuantity = personsQuantity;
         this.area = area;
+        this.registrations = registrations;
     }
 
     public int getNumber() {
@@ -39,4 +41,11 @@ public class Flat implements Serializable{
         this.area = area;
     }
 
+    public List<Registration> getRegistrations() {
+        return registrations;
+    }
+
+    public void setRegistrations(List<Registration> registrations) {
+        this.registrations = registrations;
+    }
 }

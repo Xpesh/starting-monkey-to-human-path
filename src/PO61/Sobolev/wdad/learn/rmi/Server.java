@@ -16,8 +16,8 @@ public class Server {
     private static XmlDataManagerImpl xmlDataManager;
     static private String securityPolicyPath;
     static final private String EXECUTOR_NAME = "xmlDataManager";
-    static final private String XML_APP_CONFIG_PATH = "appconfig.xml";
-    static final private String XML_DATA_MANAGER_PATH = "housekeeper1.xml";
+    static final private String XML_APP_CONFIG_PATH = "/Users/tatanasoboleva/IdeaProjects/HOT/starting-monkey-to-human-path/src/PO61/Sobolev/wdad/configuration/appconfig.xml";
+    static final private String XML_DATA_MANAGER_PATH = "/Users/tatanasoboleva/IdeaProjects/HOT/starting-monkey-to-human-path/src/PO61/Sobolev/wdad/learn/xml/housekeeper1.xml";
 
     static private PreferencesManager preferencesManager;
     static private String codebaseUrl;

@@ -53,7 +53,6 @@ public class Client {
         if (registry != null) {
             try {
                 Remote remote = registry.lookup(EXECUTOR_NAME); // получаем ссылку на удаленный объект
-
                 test((XmlDataManager) remote);
             } catch (RemoteException re) {
                 System.err.println("something unbelievable happens");

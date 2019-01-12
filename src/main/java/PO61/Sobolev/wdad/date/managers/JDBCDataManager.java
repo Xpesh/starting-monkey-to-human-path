@@ -40,6 +40,7 @@ public class JDBCDataManager implements DataManager {
         }
     }
 
+
     private int findIdStreet(String street, Statement statement) throws SQLException {
         ResultSet resultSet = statement.executeQuery(String.format("SELECT * FROM `street` WHERE `name` LIKE '%s'",street));
         resultSet.next();

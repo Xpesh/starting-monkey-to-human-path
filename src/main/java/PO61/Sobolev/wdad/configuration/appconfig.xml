@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE appconfig PUBLIC "" "appconfig.dtd">
+<appconfig>
+    <rmi>
+        <server>
+            <registry>
+                <createregistry>yes</createregistry>
+                <registryaddress>127.0.0.1</registryaddress>
+                <registryport>25565</registryport>
+            </registry>
+        </server>
+        <client>
+            <policypath>/Users/tatanasoboleva/IdeaProjects/HOT/starting-monkey-to-human-path/src/PO61/Sobolev/wdad/learn/rmi/security.policy</policypath>
+            <usecodebaseonly>yes</usecodebaseonly>
+        </client>
+        <classprovider></classprovider>
+    </rmi>
+    <datasource>
+        <classname>CLASSNAME</classname>
+        <drivertype>com.mysql.jdbc.Driver</drivertype>
+        <hostName>127.0.0.1</hostName>
+        <port>8889</port>
+        <DBName>jdbs</DBName>
+        <user>monkey</user>
+        <pass>human</pass>
+    </datasource>
+</appconfig>
